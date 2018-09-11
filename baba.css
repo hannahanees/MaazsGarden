@@ -1,0 +1,25 @@
+   .col-lg-4{
+        text-align: center;
+    }
+
+    .navbar-text{
+    	text-align: center;
+    	color: black;
+    	font-family: : "Times New Roman", Times, serif;
+    	font-size: 75px;
+    }
+
+    .card-body{
+    	background-color: #e4ffcc;
+    }
+
+    .card-img-top{
+    	width: 150px;
+    	height: 150px;
+    	text-align: center;
+    }
+
+
+    .p{
+    	text-align: center;
+    }
