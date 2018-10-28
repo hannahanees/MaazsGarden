@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Maaz's Garden</title>
+<!--   <meta charset = "UTF-8" /> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="baba.css">
+
+  <div class="container">
+  <nav class="navbar navbar-center" style="background-color: white; ">
+  <img src="logo.png" class="d-inline-block align-top" alt="">
+  <span class="navbar-text">
+      <span style="color: #be5631">Maaz's</span> 
+  <span style="color: #008000">Garden</span> 
+  </span>
+</nav>
+<hr>
+<p style="text-align: center;"> Contact us: maazsgarden@gmail.com </p>
+<hr>
+</div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-left-color: white;
+    border-right-color: white;
+    outline: none;
+    color: black;;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 20px;
+    width: 35%;
+}
+
+.tablink:hover {
+    background-color: #e4ffcc;
+    border:none;
+    outline: none;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: black;
+    padding: 20px 20px;
+    height: 100%;
+}
+
+#Plants {background-color: white;}
+#Crafts {background-color: white;}
+</style>
+</head>
+<body>
+<div class = 'container' style="text-align: center;">
+<button class="tablink" onclick="openPage('Plants', this, 'white')" id = 'defaultOpen'>Plants</button>
+<button class="tablink" onclick="openPage('Crafts', this, 'white')">Crafts</button>
+</div>
+<div id="Plants" class="tabcontent">
+  <div class="container">
+  <!-- First Row -->
+  <div class="d-flex flex-row justify-content-center">
+    <div class="col-lg-4">
+      <div class="card" style="width: 18rem;">
+   <div class="text-center">
+  <img class="card-img-top" src="plant.jpg" alt="Card image cap">
+</div>
+  <div class="card-body-plant">
+    <h5 class="card-title">Plant Name</h5>
+    <p class="card-text">Price: $100</p>
+  </div>
+</div>
+    </div>
+    <div class="col-lg-4">
+    <div class="card" style="width: 18rem;">
+  <div class="text-center">
+  <img class="card-img-top" src="plant.jpg" alt="Card image cap">
+</div>
+  <div class="card-body-plant">
+    <h5 class="card-title">Plant Name</h5>
+    <p class="card-text">Price: $100</p>
+  </div>
+</div>
+    </div>
+    <div class="col-lg-4">
+      <div class="card" style="width: 18rem;">
+  <div class="text-center">
+  <img class="card-img-top" src="plant.jpg" alt="Card image cap">
+</div>
+  <div class="card-body-plant">
+    <h5 class="card-title">Plant Name</h5>
+    <p class="card-text">$100</p>
+  </div>
+</div>
+    </div>
+</div>
+  <br>
+  <!-- Second Row -->
+    <div class= "d-flex flex-row justify-content-center">
+    <div class="col-lg-4">
+    <div class="card" style="width: 18rem;">
+   <div class="text-center">
+  <img class="card-img-top" src="plant.jpg" alt="Card image cap">
+</div>
+  <div class="card-body-plant">
+    <h5 class="card-title">Plant Name</h5>
+    <p class="card-text">$100</p>
+  </div>
+</div>
+    </div>
+    <div class="col-lg-4">
+        <div class="card" style="width: 18rem;">
+      <div class="text-center">
+    <img class="card-img-top" src="plant.jpg" alt="Card image cap">
+  </div>
+    <div class="card-body-plant">
+      <h5 class="card-title">Plant Name</h5>
+      <p class="card-text">$100.</p>
+    </div>
+  </div>
+    </div>
+    <div class="col-lg-4">
+    <div class="card" style="width: 18rem;">
+  <div class="text-center">
+  <img class="card-img-top" src="plant.jpg" alt="Card image cap">
+</div>
+  <div class="card-body-plant">
+    <h5 class="card-title">Plant Name</h5>
+    <p class="card-text">$100</p>
+  </div>
+</div>
+    </div>
+  </div>
+  <br>
+  <!-- Third Row -->
+    <div class="d-flex flex-row justify-content-center">
+    <div class="col-lg-4">
+    <div class="card" style="width: 18rem;">
+   <div class="text-center">
+  <img class="card-img-top" src="plant.jpg" alt="Card image cap">
+</div>
+  <div class="card-body-plant">
+    <h5 class="card-title">Plant Name</h5>
+    <p class="card-text">$100</p>
+  </div>
+</div>
+    </div>
+    <div class="col-lg-4">
+    <div class="card" style="width: 18rem;">
+  <div class="text-center">
+  <img class="card-img-top" src="plant.jpg" alt="Card image cap">
+</div>
+  <div class="card-body-plant">
+    <h5 class="card-title">Plant Name</h5>
+    <p class="card-text">$100</p>
+  </div>
+</div>
+    </div>
+    <div class="col-lg-4">
+      <div class="card" style="width: 18rem;">
+    <div class="text-center">
+    <img class="card-img-top" src="plant.jpg" alt="Card image cap">
+  </div>
+    <div class="card-body-plant">
+      <h5 class="card-title">Plant Name</h5>
+      <p class="card-text">$100</p>
+    </div>
+  </div>
+    </div>
+  </div>
+</div>  
+</div>
+
+<div id="Crafts" class="tabcontent">
+  <div class="container">
+  <!-- First Row -->
+  <div class="d-flex flex-row justify-content-center">
+    <div class="col-lg-4">
+      <div class="card" style="width: 18rem;">
+   <div class="text-center">
+  <img class="card-img-top" src="craft.jpg" alt="Card image cap">
+</div>
+  <div class="card-body-crafts">
+    <h5 class="card-title">craft Name</h5>
+    <p class="card-text">Price: $100</p>
+  </div>
+</div>
+    </div>
+    <div class="col-lg-4">
+    <div class="card" style="width: 18rem;">
+  <div class="text-center">
+  <img class="card-img-top" src="craft.jpg" alt="Card image cap">
+</div>
+  <div class="card-body-crafts">
+    <h5 class="card-title">craft Name</h5>
+    <p class="card-text">Price: $100</p>
+  </div>
+</div>
+    </div>
+    <div class="col-lg-4">
+      <div class="card" style="width: 18rem;">
+  <div class="text-center">
+  <img class="card-img-top" src="craft.jpg" alt="Card image cap">
+</div>
+  <div class="card-body-crafts">
+    <h5 class="card-title">craft Name</h5>
+    <p class="card-text">$100</p>
+  </div>
+</div>
+    </div>
+</div>
+  <br>
+  <!-- Second Row -->
+    <div class= "d-flex flex-row justify-content-center">
+    <div class="col-lg-4">
+    <div class="card" style="width: 18rem;">
+   <div class="text-center">
+  <img class="card-img-top" src="craft.jpg" alt="Card image cap">
+</div>
+  <div class="card-body-crafts">
+    <h5 class="card-title">craft Name</h5>
+    <p class="card-text">$100</p>
+  </div>
+</div>
+    </div>
+    <div class="col-lg-4">
+        <div class="card" style="width: 18rem;">
+      <div class="text-center">
+    <img class="card-img-top" src="craft.jpg" alt="Card image cap">
+  </div>
+    <div class="card-body-crafts">
+      <h5 class="card-title">craft Name</h5>
+      <p class="card-text">$100.</p>
+    </div>
+  </div>
+    </div>
+    <div class="col-lg-4">
+    <div class="card" style="width: 18rem;">
+  <div class="text-center">
+  <img class="card-img-top" src="craft.jpg" alt="Card image cap">
+</div>
+  <div class="card-body-crafts">
+    <h5 class="card-title">craft Name</h5>
+    <p class="card-text">$100</p>
+  </div>
+</div>
+    </div>
+  </div>
+  <br>
+  
+</div> 
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+     
+</body>
+</html> 

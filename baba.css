@@ -3,14 +3,18 @@
     }
 
     .navbar-text{
-    	text-align: center;
+    	text-align: left;
     	color: black;
     	font-family: : "Times New Roman", Times, serif;
     	font-size: 75px;
     }
 
-    .card-body{
+    .card-body-plant{
     	background-color: #e4ffcc;
+    }
+
+    .card-body-crafts{
+        background-color: #f7cfc0;
     }
 
     .card-img-top{
